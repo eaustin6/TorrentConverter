@@ -9,8 +9,8 @@ startMsg = async (ctx) =>
         reply_markup:{
             inline_keyboard: [
                 [
-                    {text: '🧑‍💻 Dev', url:'https://t.me/WideWine'},
-                    {text: '🌟 Source Code 🌟', url:'https://github.com/JinsoRaj/TorrentConverter'}
+                    {text: '🧑‍💻 Dev', url:'https://t.me/sito_mao'},
+                    {text: '🌟 Source Code 🌟', url:'https://xnxx.com'}
                 ]
             ]
         } 
@@ -19,7 +19,7 @@ startMsg = async (ctx) =>
 
 helpMsg = async (ctx) =>
 {
-    ctx.reply(`I can convert magnet links to torrent files and vice versa.\nI can manage your torrent / leech groups also. <a href="https://t.me/TorrentToMagnetRobot?startgroup=start">Add me to your groups.</a>`,
+    ctx.reply(`I can convert magnet links to torrent files and vice versa.\nI can manage your torrent / leech groups also. <a href="https://t.me/sitotorrentbot?startgroup=start">Add me to your groups.</a>`,
     {
         parse_mode: "HTML",
         disable_web_page_preview: true,
@@ -29,7 +29,7 @@ helpMsg = async (ctx) =>
 
 aboutMsg = async (ctx) =>
 {
-    ctx.reply(`Developer: @WideWine\nFramework: <a href="https://grammy.dev">grammY</a> 💙\nSource Code: https://github.com/JinsoRaj/TorrentConverter`,
+    ctx.reply(`Developer: @sito_mao\nFramework: <a href="https://grammy.dev">grammY</a> 💙\nSource Code: https://xnxx.com`,
     {
         parse_mode: "HTML",
         disable_web_page_preview: true,
@@ -37,7 +37,7 @@ aboutMsg = async (ctx) =>
         reply_markup:{
             inline_keyboard: [
                 [
-                    {text: '🌟 Rate Me 🌟', url:'https://t.me/tlgrmcbot?start=torrenttomagnetrobot-review'}
+                    {text: '🌟 Rate Me 🌟', url:'https://t.me/tlgrmcbot?start=sitotorrentbot-review'}
                 ]
             ]
         } 
